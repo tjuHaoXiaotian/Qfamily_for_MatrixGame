@@ -60,7 +60,7 @@ class QFactorization(nn.Module):
 
     def _init_parameters(self):
         # init individual q-values
-        # init.kaiming_uniform_(self.individual_qs, a=math.sqrt(5))
+        init.kaiming_uniform_(self.individual_qs, a=math.sqrt(5))
         # init.uniform_(self.individual_qs, -0.1, 0.1)
         print("******************* [q_i] init q tables *******************")
         q_print = self.individual_qs[0]  # [agent_num, action_num]
