@@ -1,4 +1,4 @@
-# Qfamily for MatrixGame
+# Qfamily for Matrix Games
 
 ## 1. Motivation
 There have been a lot of research works (e.g., QTRAN and QPLEX) using matrix Games to analyze the performance of their algorithms. An example is shown in the following figure.
